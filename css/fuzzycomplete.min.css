@@ -1,0 +1,19 @@
+.fuzzyResults {
+  position: absolute;
+  display: none;
+  border: 1px solid #ccc;
+  background: #353b48;
+}
+.__autoitem {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding: 2px;
+}
+.__autoitem.selected,
+.__autoitem.selected:hover {
+  background: #9ac;
+}
+.__autoitem:hover {
+  background: #cc2936;
+}
+/*# sourceMappingURL=fuzzycomplete.min.css.map */

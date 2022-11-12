@@ -1,0 +1,72 @@
+
+    body,html{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: #cc2936 !important;
+        }
+    
+        .searchbar{
+        margin-bottom: auto;
+        margin-top: 25%;
+        height: 60px;
+        background-color: #353b48;
+        border-radius: 30px;
+        padding: 10px;
+        }
+    
+        .search_input{
+        color: white;
+        border: 0;
+        outline: 0;
+        background: none;
+        caret-color:transparent;
+        line-height: 40px;
+        padding: 0 10px;
+        width: 450px;
+        caret-color:red;
+        transition: width 0.4s linear;
+        }
+
+        .search_icon{
+        height: 40px;
+        width: 40px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: white;
+        color: #e74c3c;
+        text-decoration:none;
+        }
+
+        .brand_logo_container {
+            height: 170px;
+            width: 170px;
+            top: 40px;
+            border-radius: 50%;
+            background: #e8e9f3;
+            padding: 10px;
+            text-align: center;
+            display: block ruby;
+        }
+
+        .brand_logo {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .custab{
+            padding: 5px;
+            margin: 5% 0;
+            box-shadow: 3px 3px 2px #ccc;
+            transition: 0.5s;
+            }
+        .custab:hover{
+            box-shadow: 3px 3px 0px transparent;
+            transition: 0.5s;
+            }
